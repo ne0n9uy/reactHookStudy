@@ -2,14 +2,15 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import Counter from './useState01_Counter';
-import Info from './useState02_Info';
+
+// import Counter from './Counter';
+import Info from './Info';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <>
-        {/* <App /> */}
+        <App />
         {/* <Counter/> */}
-        <Info/>
+        {/* <Info/> */}
     </>
 );
