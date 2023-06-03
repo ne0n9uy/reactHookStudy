@@ -1,13 +1,15 @@
 import React,{useState} from 'react';
 import './App.css';
-import Info from './Info';
-// import Counter from './Counter';
-import ContextSample from './ContextSample';
+// import Info from './Info';
+import Info_useReducer from './Info_useReducer';
+// import Counter_useState from './Counter_useState';
+// import Counter_useReducer from './Counter_useReducer';
+// import ContextSample from './ContextSample';
 
 
 function App() {
   //useState 통해 가시성 바꾸기
-  const [visible,setVisible]=useState(false);
+  // const [visible,setVisible]=useState(false);
 
   return (
     <div className="App">
@@ -25,7 +27,9 @@ function App() {
         {/* <Counter/> */}
         {/* <Info/> */}
         {/* <ContextSample /> 검은 사각형 */}
-        
+        {/* <Counter_useReducer /> */}
+        <Info_useReducer/>
+
       </header>
     </div>
   );
