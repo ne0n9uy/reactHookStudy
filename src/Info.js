@@ -36,10 +36,7 @@ const Info=()=>{
         };
     });
 
-
-
-
-/* Functions */
+    /* Functions */
     const onChangeJelly=(e)=>{
         setJelly(e.target.value);
     }
