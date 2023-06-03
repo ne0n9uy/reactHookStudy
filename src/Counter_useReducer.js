@@ -1,8 +1,6 @@
 import React, {useReducer} from "react";
-// useReducer: useState보다 컴포넌트에서 더 다양한 
-// 상황에 따라 다양한 상태 다른 값으로 업데이트 하고 싶을 때
-//현재 상태, 업데이트 위해 필요한 정보 담은
-// action값 전달받아 새 상태 반환 
+// useReducer: useState보다 컴포넌트에서 더 다양한 상황에 따라 다양한 상태 다른 값으로 업데이트 하고 싶을 때
+//현재 상태, 업데이트 위해 필요한 정보 담은 action값 전달받아 새 상태 반환 
 // 새 상태 만들 때 꼭 불변성 지켜야
 // function reducer(state, action){ return {...}; }
 // action값 주된 형태: {type: 'INCREMENT', +..}
