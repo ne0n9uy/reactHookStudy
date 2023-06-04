@@ -20,7 +20,8 @@ const Info_useReducer=()=>{
     const {snack,reason}=state; //state 할당
     const onChange=(e)=>{
         //action 값 넣어주면 reducer 함수 호출 구조
-       dispatch(e.target); //action은 어떤 값도 가능
+       dispatch(e.target); 
+       //dispatch(action) action은 어떤 값도 가능
     }
     
     return(
